@@ -1,0 +1,5 @@
+# Project exclude paths
+.gradle
+.idea
+.src/test/java/javatest
+.src/test/java//pythontest
