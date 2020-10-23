@@ -5,7 +5,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.awt.*;
 
 
 @Getter
@@ -25,8 +24,9 @@ public class Posts {
 
     private String author;
 
+//객체 생성 패턴
     @Builder
-    public Posts(String title,String content,String author){
+    public  Posts(String title, String content, String author){
         this.title = title;
         this.content = content;
         this.author = author;
